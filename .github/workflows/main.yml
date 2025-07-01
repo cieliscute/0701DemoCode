@@ -3,7 +3,8 @@ name: PR Test + Lint
 on:
   pull_request:
     branches:
-      - main # PR 對 main 分支時觸發
+      - main
+      - feat-sum
 
 jobs:
   build-and-test:
